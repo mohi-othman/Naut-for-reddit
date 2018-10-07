@@ -18,3 +18,21 @@ If you have any questions on how to customize, [/r/CSSHelp](https://www.reddit.c
 ## Contributing
 
 See [CONTRIBUTING.md](https://github.com/Axel--/Naut-for-reddit/blob/master/CONTRIBUTING.md) for more information.
+
+# Implementation for /r/IDWTransfomers
+
+This is a SASS implementation intended for styling /r/IDWTransfomers. The main takeaway is allowing for completely different styles for regular moder and night mode. The regular style should go in the file `_idw_tf_normal.scss` and the night mode style should go to `_idw_tf_nm.scss`. The contents of the files can be regular CSS. 
+
+# Prerequisites
+
+1. Install [npm](https://nodejs.org/en/). 
+
+2. Install SASS. Use command `npm install -g sass`
+
+# Building the SASS files
+
+Run this command from the src folder:
+
+`sass idw_tf_src.scss output.css -scompressed`
+
+Copy the contents of `output.css` to Reddit.

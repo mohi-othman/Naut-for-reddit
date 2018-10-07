@@ -1,0 +1,9 @@
+// SASS file for /r/IDWTransformers
+
+// Normal mode
+@import "_idw_tf_normal";
+
+// Night mode
+html[lang=nm] {
+	@import "_idw_tf_nm";
+}
